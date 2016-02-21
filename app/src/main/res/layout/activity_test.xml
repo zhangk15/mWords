@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_view0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Please check the words you know.\n"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apple"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apple"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apple"/>
+    </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apple"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+</TableLayout>
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="submit"/>
+
+    </LinearLayout>
+</LinearLayout>
